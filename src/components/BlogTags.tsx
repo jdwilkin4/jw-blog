@@ -1,4 +1,4 @@
-import { IBlogTags } from "../types";
+import { IBlogTags } from "../../types";
 import { HStack, Tag } from "@chakra-ui/react";
 
 export const BlogTags: React.FC<IBlogTags> = ({ marginTop, tags }) => {
