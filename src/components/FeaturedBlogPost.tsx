@@ -8,8 +8,8 @@ import {
 } from "@chakra-ui/react";
 import { BlogTags } from "./BlogTags";
 import { BlogAuthor } from "./BlogAuthor";
-import { UNSPLASH_URL } from "../../constants";
-import { FeaturedBlogs } from "../../types";
+import { UNSPLASH_URL } from "../constants";
+import { FeaturedBlogs } from "../types";
 
 export const FeaturedBlogPost = ({
   imageId,

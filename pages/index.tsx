@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import { BlogTags } from "../src/components/BlogTags";
 import { BlogAuthor } from "../src/components/BlogAuthor";
 import { FeaturedBlogPost } from "../src/components/FeaturedBlogPost";
-import { december2022List } from "../src/featured-blogs";
+import { featuredBlogs2023 } from "../src/featured-blogs";
 import {
   Box,
   Center,
@@ -37,7 +37,7 @@ const Home: NextPage = () => {
         <Center flexDirection="column">
           <Heading as="h1">From Mozart to JavaScript</Heading>
         </Center>
-        <FeaturedBlogPost {...december2022List[0]} />
+        <FeaturedBlogPost {...featuredBlogs2023[0]} />
 
         <Heading as="h2" marginTop="5">
           Latest articles

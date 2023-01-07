@@ -1,5 +1,3 @@
-import nextMDX from "@next/mdx";
-
 const withMDX = require("@next/mdx")({
   extension: /\.mdx?$/,
 });

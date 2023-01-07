@@ -1,14 +1,15 @@
-import { FeaturedBlogs } from "../types";
+import { FeaturedBlogs } from "./types";
 
-export const december2022List: FeaturedBlogs[] = [
+export const featuredBlogs2023: FeaturedBlogs[] = [
   {
-    imageId: "V705bwrTnQI",
-    altText: "Christmas tree with ornaments",
-    title: "Finding a new identity during the holidays",
+    imageId: "rXrMy7mXUEs",
+    altText: "woman hunched over",
+    title:
+      "Stepping out from the shadows of shame: How I learned to heal and embrace learning how to code",
     description:
-      "This is the first holiday season post Covid where I haven't had back to back holiday performances and I feel a little bit lost.",
-    articleDate: "December 8th, 2022",
-    tags: ["holidays"],
-    link: "posts/holiday-identity-crisis",
+      "There have been many times in my life where I was paralyzed with fear of trying because I was afraid of entering into a space of shame.",
+    articleDate: "January 16th, 2023",
+    tags: ["mental health", "programming", "JavaScript"],
+    link: "posts/shadows-of-shame",
   },
 ];
