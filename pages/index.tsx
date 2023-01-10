@@ -21,9 +21,9 @@ import {
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
-        <title>Mozart to JavaScript: JW blog</title>
+        <title>From Mozart to JavaScript</title>
         <meta
           name="description"
           content="A personal blog site for Jessica Wilkins"

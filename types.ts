@@ -1,7 +1,11 @@
 import { SpaceProps } from "@chakra-ui/react";
-import { tagsArr } from "./tags";
+import { tagsArr } from "./src/tags";
 
 export type Tags = typeof tagsArr[number];
+
+export interface BlogHeadingProps {
+  heading: string;
+}
 
 export interface FeaturedBlogs {
   imageId: string;

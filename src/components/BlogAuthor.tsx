@@ -1,6 +1,6 @@
-import { BlogAuthorProps } from "../types";
+import { BlogAuthorProps } from "../../types";
 import { HStack, Image, Text } from "@chakra-ui/react";
-import { AUTHOR_PROFILE_URL } from "../constants";
+import { AUTHOR_PROFILE_URL } from "../../constants";
 
 export const BlogAuthor: React.FC<BlogAuthorProps> = ({ date }) => {
   return (
