@@ -4,6 +4,8 @@ import { tagsArr } from "./src/tags";
 export type Tags = typeof tagsArr[number];
 
 export interface BlogHeadingProps {
+  wordCount: number;
+  date: string;
   heading: string;
 }
 

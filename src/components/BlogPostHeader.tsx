@@ -1,16 +1,18 @@
 import { Heading, Center } from "@chakra-ui/react";
-import { HomeLink } from "./HomeLink";
+import { AuthorInfoContainer } from "./AuthorInfoContainer";
 import { BlogHeadingProps } from "../../types";
 
-export const BlogPostHeader = ({ heading }: BlogHeadingProps) => {
+export const BlogPostHeader = ({
+  heading,
+  wordCount,
+  date,
+}: BlogHeadingProps) => {
   return (
-    <>
+    <div>
       <Center mt={4}>
         <Heading>{heading}</Heading>
       </Center>
-      <Center mt={4}>
-        <HomeLink />
-      </Center>
-    </>
+      <AuthorInfoContainer date={date} wordCount={wordCount} />
+    </div>
   );
 };
