@@ -1,0 +1,29 @@
+---
+const date = new Date();
+const year = date.getFullYear();
+import "../styles/footer.css";
+---
+
+<footer>
+  <h2 class="footer-title">Let's connect</h2>
+  <div
+    class="social-media-container"
+  >
+    <div
+      class="flex-container"
+    >
+      <a
+        href="https://twitter.com/codergirl1991"
+        target="_blank"
+        rel="noreferrer noopener"
+        class="social-media-link"
+        >Twitter</a>
+      <a
+        rel="noreferrer noopener"
+        href="https://github.com/jdwilkin4"
+        target="_blank"
+        class="social-media-link">Github</a> 
+    </div>
+  </div>
+  <p class="copyright">Copyright &copy; {year}</p>
+</footer>
