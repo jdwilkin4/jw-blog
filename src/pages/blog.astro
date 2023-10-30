@@ -1,5 +1,5 @@
 ---
-
+import { LATEST_ARTICLES } from "../constants";
 ---
 
 <html lang="en">
@@ -23,11 +23,13 @@
     <h2>Latest articles</h2>
 
     <ul>
-      <li>
-        <a href="/posts/how-to-survive-a-tech-layoff"
-          >How to Survive a Tech Layoff</a
-        >
-      </li>
+      {
+        LATEST_ARTICLES.map(({ path, title }) => (
+          <li>
+            <a href={path}>{title}</a>
+          </li>
+        ))
+      }
     </ul>
 
     <h2>Most popular articles</h2>
