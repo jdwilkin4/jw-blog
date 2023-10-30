@@ -1,6 +1,8 @@
 ---
-const pageTitle = "About Jessica Wilkins";
+import Navigation from "../components/Navigation.astro";
 import "../styles/global.css";
+
+const pageTitle = "About Jessica Wilkins";
 ---
 
 <html lang="en">
@@ -12,13 +14,7 @@ import "../styles/global.css";
     <title>{pageTitle}</title>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About me</a></li>
-        <li><a href="/blog">Blog</a></li>
-      </ul>
-    </nav>
+    <Navigation />
 
     <h1>My story</h1>
 

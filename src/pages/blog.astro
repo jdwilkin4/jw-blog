@@ -1,5 +1,6 @@
 ---
 import { LATEST_ARTICLES } from "../constants";
+import Navigation from "../components/Navigation.astro";
 import "../styles/global.css";
 ---
 
@@ -12,13 +13,7 @@ import "../styles/global.css";
     <title>From Mozart to JavaScript Blog</title>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About me</a></li>
-        <li><a href="/blog">Blog</a></li>
-      </ul>
-    </nav>
+    <Navigation />
     <h1>Welcome to my blog!</h1>
 
     <h2>Latest articles</h2>
