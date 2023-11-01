@@ -11,6 +11,7 @@
   --dark-grey: #333;
   --grey: #a1a1a1;
   --white: #fff;
+  --dark-navy: #111827;
   --light-blue: #007bff;
   --blue: #0056b3;
   --orange: #ff9776;
@@ -49,9 +50,18 @@ body {
   margin: auto;
 }
 
-.flex-container {
+.description-container {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .description-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+  }
 }
 
 a {

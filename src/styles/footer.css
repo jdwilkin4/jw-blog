@@ -1,20 +1,14 @@
 footer {
-  background-color: #111827;
-  color: #fff;
+  background-color: var(--dark-navy);
+  color: var(--white);
   text-align: center;
-}
-
-.footer-title {
-  font-size: 2.5rem;
-  font-weight: 600;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 .social-media-container {
   display: grid;
   place-items: center;
   margin: 0 auto;
-  margin-top: 2.5rem;
   padding: 16px;
   border-radius: 20px;
 }
@@ -38,25 +32,15 @@ footer {
   .flex-container {
     flex-direction: row;
     margin-left: 0.75rem;
-    margin-top: 0px;
+    margin-top: 0;
   }
 }
 
 .social-media-link {
-  background-color: #2563eb;
-  padding: 0.5rem 1rem;
-  border-radius: 10px;
-  display: inline-flex;
   font-weight: 600;
-  color: #fff;
-  text-decoration: none;
-}
-
-.social-media-link:hover {
-  background-color: #1d4ed8;
+  color: var(--white);
 }
 
 .copyright {
-  font-size: 1.25rem;
   padding: 10px 0;
 }
