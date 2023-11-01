@@ -4,26 +4,57 @@ import { Image } from "astro:assets";
 const pageTitle = "From Mozart to JavaScript";
 const pageDescription =
   "In the pre-pandemic era, I was working as a professional classical musician. But the pandemic introduced me to the world of programming and my path has since led me to become a professional software developer. This blog explores my current life and the unique journey that brought me to this point.";
+const allPosts = await Astro.glob("../pages/posts/*.md");
+const recentPosts = allPosts.slice(0, 3);
 ---
 
 <BaseLayout pageDescription={pageDescription} pageTitle={pageTitle}>
-  <main class="homepage-container">
-    <h1>From Mozart to JavaScript</h1>
-    <div class="description-container">
-      <Image
-        class="profile-image"
-        height="200"
-        width="200"
-        src="/jw-profile.jpeg"
-        alt="Jessica Wilkins profile"
-      />
-      <p>
-        In the pre-pandemic era, I was working as a professional classical
-        musician. But the pandemic introduced me to the world of programming and
-        my path has since led me to become a professional software developer.
-        This blog explores my current life and the unique journey that brought
-        me to this point.
-      </p>
+  <main>
+    <div class="hero-container">
+      <h1>From Mozart to JavaScript</h1>
+      <div class="description-container">
+        <Image
+          class="profile-image"
+          height="200"
+          width="200"
+          src="/jw-profile.jpeg"
+          alt="Jessica Wilkins profile"
+        />
+        <p>
+          In the pre-pandemic era, I was working as a professional classical
+          musician. But the pandemic introduced me to the world of programming
+          and my path has since led me to become a professional software
+          developer. This blog explores my current life and the unique journey
+          that brought me to this point.
+        </p>
+      </div>
     </div>
+
+    <h2 class="sub-heading">Recent blog posts</h2>
+    <section>
+      <ul class="recent-posts-list">
+        {
+          recentPosts.map((post) => (
+            <li>
+              <a class="blog-card-link" href={post.url}>
+                <div class="blog-card">
+                  <h2>{post.frontmatter.title}</h2>
+                  <img
+                    src={post.frontmatter.image.url}
+                    alt={post.frontmatter.image.alt}
+                  />
+                  <p>{post.frontmatter.description}</p>
+                  <div class="tags-container">
+                    {post.frontmatter.tags.map((tag) => (
+                      <span>{tag}</span>
+                    ))}
+                  </div>
+                </div>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
   </main>
 </BaseLayout>

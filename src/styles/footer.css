@@ -39,6 +39,12 @@ footer {
 .social-media-link {
   font-weight: 600;
   color: var(--white);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-media-link:hover {
+  color: var(--blue);
 }
 
 .copyright {
