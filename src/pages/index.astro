@@ -2,9 +2,11 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
 const pageTitle = "From Mozart to JavaScript";
+const pageDescription =
+  "In the pre-pandemic era, I was working as a professional classical musician. But the pandemic introduced me to the world of programming and my path has since led me to become a professional software developer. This blog explores my current life and the unique journey that brought me to this point.";
 ---
 
-<BaseLayout pageTitle={pageTitle}>
+<BaseLayout pageDescription={pageDescription} pageTitle={pageTitle}>
   <main class="homepage-container">
     <h1>From Mozart to JavaScript</h1>
     <div class="description-container">

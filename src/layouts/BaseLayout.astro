@@ -4,7 +4,7 @@ import Footer from "../components/Footer.astro";
 import Hamburger from "../components/Hamburger.astro";
 import "../styles/global.css";
 
-const { pageTitle } = Astro.props;
+const { pageTitle, pageDescription } = Astro.props;
 ---
 
 <html lang="en">
@@ -17,8 +17,17 @@ const { pageTitle } = Astro.props;
     <meta property="og:type" content="website" />
     <meta property="og:image" content="/jw-profile.jpeg" />
     <meta property="og:url" content="https://from-mozart-to-javascript.dev/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@codergirl1991" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta
+      name="twitter:description"
+      content="Description of your website or page."
+    />
+    <meta name="twitter:image" content="/jw-profile.jpeg" />
     <title>{pageTitle}</title>
   </head>
+
   <body>
     <Hamburger />
     <Navigation />

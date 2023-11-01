@@ -2,9 +2,10 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 const allPosts = await Astro.glob("../pages/posts/*.md");
 const pageTitle = "Jessica Wilkins Blog";
+const pageDescription = "Jessica Wilkins' blog";
 ---
 
-<BaseLayout pageTitle={pageTitle}>
+<BaseLayout pageDescription={pageDescription} pageTitle={pageTitle}>
   <h1>Welcome to my blog!</h1>
 
   <h2>Latest articles</h2>
