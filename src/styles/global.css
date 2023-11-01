@@ -23,12 +23,11 @@ body {
 
 .homepage-container {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 50px auto 35px;
   padding: 40px;
   background-color: var(--white);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  margin-top: 50px;
 }
 
 .homepage-container h1 {
