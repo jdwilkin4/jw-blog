@@ -13,6 +13,10 @@ const { pageTitle } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/jw-profile.jpeg" />
+    <meta property="og:url" content="https://from-mozart-to-javascript.dev/" />
     <title>{pageTitle}</title>
   </head>
   <body>
