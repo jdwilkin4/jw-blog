@@ -41,6 +41,18 @@ body {
 .homepage-container p {
   color: var(--dark-grey);
   line-height: 1.6;
+  font-size: 1.25rem;
+}
+
+.profile-image {
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
 }
 
 a {

@@ -1,16 +1,26 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
 const pageTitle = "From Mozart to JavaScript";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
   <main class="homepage-container">
     <h1>From Mozart to JavaScript</h1>
-    <p>
-      This is a blog documenting my journey transitioning from being a
-      professional classical musician to a professional software developer. I
-      talk about my professional experience so far and what I am learning along
-      the way.
-    </p>
+    <div class="flex-container">
+      <Image
+        class="profile-image"
+        height="200"
+        width="200"
+        src="/jw-profile.jpeg"
+        alt="Jessica Wilkins profile"
+      />
+      <p>
+        This is a blog documenting my journey transitioning from being a
+        professional classical musician to a professional software developer. I
+        talk about my professional experience so far and what I am learning
+        along the way.
+      </p>
+    </div>
   </main>
 </BaseLayout>
