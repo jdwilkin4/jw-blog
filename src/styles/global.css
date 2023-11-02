@@ -135,6 +135,7 @@ body {
 .blog-card p {
   font-size: 1.25rem;
   line-height: 1.6;
+  margin: 0;
 }
 
 .tags-container {
@@ -149,7 +150,6 @@ body {
   border-radius: 0.375rem;
   background-color: var(--dark-navy);
   color: var(--white);
-  font-size: 0.875rem;
   font-weight: 600;
   text-decoration: none;
   transition: background-color 0.3s;
@@ -184,18 +184,4 @@ body {
   text-align: center;
   font-size: 2.25rem;
   margin-top: 40px;
-}
-
-.post-intro-container {
-  text-align: center;
-  margin: 30px auto 0;
-}
-
-.post-intro-container p {
-  font-size: 1.25rem;
-  line-height: 1.6;
-}
-
-#posts-tags {
-  justify-content: center;
 }

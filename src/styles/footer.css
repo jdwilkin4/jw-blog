@@ -5,6 +5,12 @@ footer {
   padding: 20px 0;
 }
 
+footer p {
+  font-size: 1.25rem;
+  color: var(--white);
+  margin: 0;
+}
+
 .social-media-container {
   display: grid;
   place-items: center;
