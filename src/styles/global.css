@@ -137,13 +137,13 @@ body {
   line-height: 1.6;
 }
 
-.blog-card .tags-container {
+.tags-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
 }
 
-.blog-card .tags-container span {
+.tag {
   display: inline-block;
   padding: 0.25rem 0.5rem;
   border-radius: 0.375rem;
@@ -153,6 +153,11 @@ body {
   font-weight: 600;
   text-decoration: none;
   transition: background-color 0.3s;
+}
+
+.tag a {
+  color: var(--white);
+  text-decoration: none;
 }
 
 .hamburger {
@@ -174,11 +179,6 @@ body {
   }
 }
 
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .tags-page-heading {
   color: var(--dark-grey);
   text-align: center;
@@ -186,11 +186,16 @@ body {
   margin-top: 40px;
 }
 
-.tag {
-  margin: 0.25em;
-  border: solid 1px var(--grey);
-  border-radius: 0.5em;
-  padding: 0.5em 1em;
-  font-size: 1.15em;
-  background-color: var(--light-grey);
+.post-intro-container {
+  text-align: center;
+  margin: 30px auto 0;
+}
+
+.post-intro-container p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+#posts-tags {
+  justify-content: center;
 }
