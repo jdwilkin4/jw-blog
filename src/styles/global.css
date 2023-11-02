@@ -35,7 +35,7 @@ body {
   color: var(--dark-grey);
   text-align: center;
   font-size: 2.25rem;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .hero-container p {
@@ -179,9 +179,16 @@ body {
   flex-wrap: wrap;
 }
 
+.tags-page-heading {
+  color: var(--dark-grey);
+  text-align: center;
+  font-size: 2.25rem;
+  margin-top: 40px;
+}
+
 .tag {
   margin: 0.25em;
-  border: dotted 1px var(--grey);
+  border: solid 1px var(--grey);
   border-radius: 0.5em;
   padding: 0.5em 1em;
   font-size: 1.15em;
