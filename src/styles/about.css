@@ -1,0 +1,25 @@
+h1 {
+  color: var(--dark-grey);
+  text-align: center;
+  font-size: 2.25rem;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.bio-section {
+  margin-bottom: 75px;
+}
+
+.bio-section h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  margin-left: 5px;
+}
+
+.bio-section p {
+  color: var(--dark-grey);
+  line-height: 2;
+  font-size: 1.5rem;
+  margin: 15px 20px;
+}
