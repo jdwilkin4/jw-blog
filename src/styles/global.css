@@ -120,8 +120,9 @@ body {
 .blog-card h2 {
   padding-right: 1rem;
   padding-top: 0.5rem;
-  font-size: 1.25rem;
-  font-weight: 600;
+  padding-bottom: 1.5rem;
+  font-size: 1.75rem;
+  text-align: center;
 }
 
 .blog-card img {
@@ -131,13 +132,18 @@ body {
   object-fit: cover;
 }
 
-.tags-container {
+.blog-card p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.blog-card .tags-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
 }
 
-.tags-container span {
+.blog-card .tags-container span {
   display: inline-block;
   padding: 0.25rem 0.5rem;
   border-radius: 0.375rem;
