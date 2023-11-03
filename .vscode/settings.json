@@ -4,6 +4,11 @@
       "language": "markdown",
       "scheme": "file",
       "pattern": "src/pages/posts/how-to-find-discipline-in-coding.md"
+    },
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "src/pages/posts/how-to-survive-a-tech-layoff.md"
     }
   ]
 }
