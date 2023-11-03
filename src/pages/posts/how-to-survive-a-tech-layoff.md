@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: "How to Survive a Tech Layoff"
-pubDate: 2023-11-01
+pubDate: 2023-11-02
 description: "In August 2023, I was laid off from my job as a software engineer. I wanted to write about my experience and share some tips for anyone else who might be going through the same thing."
 author: "Jessica Wilkins"
 image:
