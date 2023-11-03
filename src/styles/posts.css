@@ -2,7 +2,7 @@ p {
   color: var(--dark-grey);
   line-height: 2;
   font-size: 1.5rem;
-  margin: 10px 35px;
+  margin: 35px;
 }
 
 h2 {
@@ -19,14 +19,16 @@ h2 {
 
 .post-intro-container p {
   line-height: 1.6;
+  margin: 0;
 }
 
 #posts-tags {
+  margin-top: -20px;
   justify-content: center;
 }
 
 .individual-post-tag {
-  font-size: 1rem;
+  font-size: 0.875rem;
 }
 
 .individual-post-tag:hover {
