@@ -24,7 +24,7 @@ The day before I was laid off, I noticed a sudden meeting placed on my work cale
 
 When the meeting rolled around, my manager had logged on and then my boss logged on too. At this point, I could feel that something was off and knew that it probably wasn't going to be good news. My boss then proceeded to tell me that I was being laid off and I immediately started thinking about my next steps.
 
-After the meeting ended, I called my mom and told her what happened. We ended up talking for 45 minutes and she was sympathetic and supportive. I also ended up posting in a couple of Slack channels of tight knight communities that I'm a part of and received a lot of support from them as well.
+After the meeting ended, I called my mom and told her what happened. We ended up talking for 45 minutes and she was sympathetic and supportive. I also ended up posting in a couple of Slack channels of tight-knit communities that I'm a part of and received a lot of support from them as well.
 
 My first piece of advice for all going through this is to reach out to your friends and family. They will be able to provide you with the emotional support that you need during this time. Please do not try to go through this alone. 🙏🏾
 

@@ -9,6 +9,11 @@
       "language": "markdown",
       "scheme": "file",
       "pattern": "src/pages/posts/how-to-survive-a-tech-layoff.md"
+    },
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "src/pages/posts/how-to-get-involved-with-twitter-spaces.md"
     }
   ]
 }

@@ -5,11 +5,33 @@ p {
   margin: 35px;
 }
 
+img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  img {
+    max-width: 600px;
+    height: auto;
+  }
+}
+
+h2,
+h3 {
+  font-weight: 600;
+}
+
 h2 {
   font-size: 2rem;
-  font-weight: 600;
   margin: 40px 0;
   text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 20px;
 }
 
 .post-intro-container {
