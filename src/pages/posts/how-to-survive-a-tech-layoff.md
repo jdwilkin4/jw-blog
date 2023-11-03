@@ -56,7 +56,7 @@ Also, make sure to reach out to colleagues and ask for recommendations on Linked
 
 A few days after the layoff, I posted to Twitter and tons of people responded and re-shared the post. I also received a lot of DMs from people who were offering to help me out. I was surprised by the amount of support that I received.
 
-In the end, I was grateful to be able to start working full-time with freeCodeCamp. It has been a great experience and I'm excited about the work that I'm doing.
+In the end, I was grateful to be able to start working full-time with [freeCodeCamp](https://www.freecodecamp.org/learn/). It has been a great experience and I'm excited about the work that I'm doing.
 
 But I think without my network, it would have made this whole experience seem so much lonelier and harder. I would encourage you to reach out to your network and let them know that you are looking for work. You never know who might be able to help you out.
 

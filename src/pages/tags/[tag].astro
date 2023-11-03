@@ -38,7 +38,7 @@ const { posts } = Astro.props;
               <p>{post.frontmatter.description}</p>
               <div class="tags-container">
                 {post.frontmatter.tags.map((tag) => (
-                  <span>{tag}</span>
+                  <span class="tag">{tag}</span>
                 ))}
               </div>
             </div>
