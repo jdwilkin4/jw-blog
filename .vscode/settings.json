@@ -14,6 +14,12 @@
       "language": "markdown",
       "scheme": "file",
       "pattern": "src/pages/posts/how-to-get-involved-with-twitter-spaces.md"
+    },
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "src/pages/posts/should-you-pay-for-programming-courses.md"
     }
-  ]
+  ],
+  "cSpell.words": ["bootcamp"]
 }
