@@ -24,6 +24,11 @@
       "language": "markdown",
       "scheme": "file",
       "pattern": "src/pages/posts/100k-first-job.md"
+    },
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "src/pages/posts/should-you-practice-leetcode.md"
     }
   ],
   "cSpell.words": ["bootcamp"]
