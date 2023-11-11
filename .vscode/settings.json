@@ -29,6 +29,11 @@
       "language": "markdown",
       "scheme": "file",
       "pattern": "src/pages/posts/should-you-practice-leetcode.md"
+    },
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "src/pages/posts/how-to-avoid-pr-mistakes.md"
     }
   ],
   "cSpell.words": ["bootcamp"]
