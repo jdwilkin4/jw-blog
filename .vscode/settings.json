@@ -34,6 +34,11 @@
       "language": "markdown",
       "scheme": "file",
       "pattern": "src/pages/posts/how-to-avoid-pr-mistakes.md"
+    },
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "src/pages/posts/should-you-work-remotely.md"
     }
   ],
   "cSpell.words": ["bootcamp"]
