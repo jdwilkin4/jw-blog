@@ -49,6 +49,11 @@
       "language": "markdown",
       "scheme": "file",
       "pattern": "src/pages/posts/how-to-network-on-twitch.md"
+    },
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "src/pages/posts/my-thoughts-on-dannys-paid-courses.md"
     }
   ],
   "cSpell.words": ["bootcamp"]
