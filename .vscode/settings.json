@@ -44,6 +44,11 @@
       "language": "markdown",
       "scheme": "file",
       "pattern": "src/pages/posts/how-to-find-good-oss-issues.md"
+    },
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "src/pages/posts/how-to-network-on-twitch.md"
     }
   ],
   "cSpell.words": ["bootcamp"]
